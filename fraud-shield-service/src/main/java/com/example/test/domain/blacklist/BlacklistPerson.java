@@ -1,8 +1,9 @@
-package com.example.test.domain;
+package com.example.test.domain.blacklist;
 
-import lombok.Data;
 
-@Data
+import lombok.Getter;
+
+@Getter
 public class BlacklistPerson {
     private BlacklistPersonId id;
     private Pesel pesel;
@@ -23,7 +24,7 @@ public class BlacklistPerson {
 
     public static BlacklistPerson create(Pesel pesel, BlacklistReason reason) {
         return new BlacklistPerson(
-                null,
+                BlacklistPersonId.generate(),
                 pesel,
                 reason,
                 true

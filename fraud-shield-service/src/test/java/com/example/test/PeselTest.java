@@ -1,6 +1,6 @@
 package com.example.test;
 
-import com.example.test.domain.Pesel;
+import com.example.test.domain.blacklist.Pesel;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
