@@ -1,6 +1,6 @@
 package com.example.test;
 
-import com.example.test.domain.BlacklistReason;
+import com.example.test.domain.blacklist.BlacklistReason;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;

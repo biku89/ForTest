@@ -1,4 +1,4 @@
-package com.example.test.domain;
+package com.example.test.domain.blacklist;
 
 public record BlacklistReason(String value) {
     public BlacklistReason {
